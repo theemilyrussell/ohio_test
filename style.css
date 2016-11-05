@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+
+
+body	{
+	background-color: #EAE2B7;
+	font-family: 'Shrikhand', cursive;
+}
+
+h1	{
+	color: #003049;
+	margin: 8px;
+}
+
+h2	{
+	color: #D62828;
+}
+
+h3	{
+	color: #F77F00;
+}
+
+p	{
+	color: #FCBF49;
+	
+}
+
+.names	{
+	text-align: center;
+}
+
+div	{
+	margin-top: 15%;
+	font-size: 2em;
+	width: 100%;
+	
+}
+
+/* @media (min-width: 768px){
+	div	{
+	margin-top: 15%;
+	font-size: 2em;
+	width: 48%;
+	
+} */
+}

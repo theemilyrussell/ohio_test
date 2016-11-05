@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+
+body	{
+	font-family: 'Bitter', serif;
+	background-color: #FFCB47;
+	color: #4A5043;
+}
+
+.catCounter	{
+	font-size: 2em;
+	margin: 70px auto;
+	width: ;
+	text-align: center;
+	
+}

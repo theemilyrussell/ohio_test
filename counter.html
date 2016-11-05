@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>Counter</title>
+	<link rel="stylesheet" href="css/counter.css">
+</head>
+
+<body>
+	<div class="catCounter">
+	<h1>0</h1>
+	<h2>cats!</h2>
+	
+	<button id="down"> - </button>
+	<button id="up"> + </button>
+	<div> <!-- .catCounter -->
+	
+	<!-- javaScript -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		var cats = 0;
+		
+		$('button').click(function(){
+			if ($(this).attr('id')==='up'){
+			cats = cats + 1;
+			} else {
+			cats = cats - 1;
+			}
+			$('h1').text(cats);
+// 			
+		});
+		
+		
+	</script>
+</body>
+
+</html>

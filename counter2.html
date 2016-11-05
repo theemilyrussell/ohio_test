@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	<title>Counter</title>
+	<link rel="stylesheet" href="css/counter.css">
+</head>
+
+<body>
+	<div class="catCounter">
+	<img id="catPic" src="http://placekitten.com/600/500">
+	<h2>cats!</h2>
+	
+	<button id="down"> back </button>
+	<button id="up"> forward </button>
+	<div> <!-- .catCounter -->
+	
+	<!-- javaScript -->
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		
+		var catIndex = 500;
+		
+		$('button').click(function(){
+			if ($(this).attr('id')==='up'){
+			catIndex = catIndex + 1;
+			} else {
+			catIndex = catIndex - 1;
+			}
+			var url = "http://placekitten.com/600/" + catIndex;
+			
+			$('#catPic').attr("src", url);
+			
+// 			
+		});
+		
+		
+	</script>
+</body>
+
+</html>
